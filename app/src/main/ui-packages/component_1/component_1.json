@@ -1,0 +1,103 @@
+{
+  "name": "component_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eAyFL0WJrfCzxDcKOltHF6",
+    "node": "43:2",
+    "version": "4446555345",
+    "component-id": "5c2539603b99cd838087ccadd277497818b47196"
+  },
+  "default": "Component 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Upper Half"
+      },
+      {
+        "type": "image",
+        "id": "classmate_img"
+      }
+    ],
+    "modes": {
+      "Component 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Upper Half",
+              "classmate_img"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Upper Half",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "outside",
+            "image-content": "upper_half.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "classmate_img",
+            "margin": {
+              "left": "54.0",
+              "top": "80.0",
+              "right": "54.0",
+              "bottom": "62.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "classmate_img.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 1",
+      "size": {
+        "width": 360.0,
+        "height": 180.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
