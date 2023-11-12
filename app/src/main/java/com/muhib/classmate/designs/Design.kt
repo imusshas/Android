@@ -90,19 +90,15 @@ fun ButtonDesigner(
 @Composable
 fun TextFieldDesigner(
     text: String,
+    value: String = "",
     modifier: Modifier = Modifier,
     keyboardType: KeyboardType = KeyboardType.Text,
-    fieldType: String? = null
+    fieldType: String? = null,
+    onValueChange: (String) -> Unit
 ) {
-    var value by remember {
-        mutableStateOf("")
-    }
-
     TextField(
         value = value,
-        onValueChange = {
-            value = it
-        },
+        onValueChange = onValueChange,
         label = {
             Text(text = text)
         },

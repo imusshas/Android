@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         }
         setContent {
             ClassMateTheme {
-                LogInSignUp()
+                LogInSignUp(this)
             }
         }
     }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102560038040",
+    "project_id": "classmate-application",
+    "storage_bucket": "classmate-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102560038040:android:f6f08f715127fd4b8424ed",
+        "android_client_info": {
+          "package_name": "com.muhib.classmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS7pAkCq7K_EMquLGy8kipjrYUTxyffqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
